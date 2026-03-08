@@ -9,23 +9,23 @@
 
 | Campo | Descrição |
 |-------|-----------|
-| **Turma** | *(Informar a turma)* |
-| **Grupo** | *(Informar o número do grupo)* |
-| **Semestre/Ano** | *(Preencher)* |
+| **Turma** | *(TURMA 01 EIXO 3)* |
+| **Grupo** | *(GRUPO 4)* |
+| **Semestre/Ano** | *(3* SEMESTRE/2026)* |
 
 ### Integrantes
 
 | Nome Completo | Matrícula |
 |---------------|-----------|
-| *(Nome 1)* | *(Matrícula)* |
-| *(Nome 2)* | *(Matrícula)* |
-| *(Nome 3)* | *(Matrícula)* |
-| *(Nome 4)* | *(Matrícula)* |
-| *(Nome 5)* | *(Matrícula)* |
+| *(GERALDO GONÇALVES RODRIGUES)* | *(883066)* |
+| *(ANDRE ALBUQUERQUE)* | *(Matrícula)* |
+| *(DANIEL SILVA)* | *()* |
+| *(MARIA EDUARDA)* | *(Matrícula)* |
+| *(ANDREW TAVARES )* | *(895540)* |
 
 ### Orientador(a)
 
-*(Nome do(a) professor(a) orientador(a))*
+*(Harison Herman Silva)*
 
 ---
 
@@ -33,7 +33,7 @@
 
 | Campo | Descrição |
 |-------|-----------|
-| **Nome da comunidade/organização** | *(Preencher)* |
+| **Nome da comunidade/organização** | *(Armarinhos)* |
 | **Tipo** | *(ONG / Escola / Associação / Empresa / Órgão público / Outro)* |
 | **Endereço** | *(Preencher)* |
 | **Responsável pelo contato** | *(Nome e cargo)* |
