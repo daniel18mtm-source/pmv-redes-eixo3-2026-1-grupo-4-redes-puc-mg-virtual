@@ -9,23 +9,23 @@
 
 | Campo | Descrição |
 |-------|-----------|
-| **Turma** | *(Informar a turma)* |
-| **Grupo** | *(Informar o número do grupo)* |
-| **Semestre/Ano** | *(Preencher)* |
+| **Turma** | TURMA 01 EIXO 3 |
+| **Grupo** | GRUPO 4 |
+| **Semestre/Ano** | 3º SEMESTRE/2026 |
 
 ### Integrantes
 
 | Nome Completo | Matrícula |
 |---------------|-----------|
-| *(Nome 1)* | *(Matrícula)* |
-| *(Nome 2)* | *(Matrícula)* |
-| *(Nome 3)* | *(Matrícula)* |
-| *(Nome 4)* | *(Matrícula)* |
-| *(Nome 5)* | *(Matrícula)* |
+| GERALDO GONÇALVES RODRIGUES | 883066 |
+| ANDRE ALBUQUERQUE | 1582764 |
+| DANIEL SILVA | 880944 |
+| MARIA EDUARDA | 1510644 |
+| ANDREW TAVARES | 895540 |
 
 ### Orientador(a)
 
-*(Nome do(a) professor(a) orientador(a))*
+Harison Herman Silva
 
 ---
 
@@ -33,18 +33,23 @@
 
 | Campo | Descrição |
 |-------|-----------|
-| **Nome da comunidade/organização** | *(Preencher)* |
-| **Tipo** | *(ONG / Escola / Associação / Empresa / Órgão público / Outro)* |
-| **Endereço** | *(Preencher)* |
-| **Responsável pelo contato** | *(Nome e cargo)* |
-| **E-mail de contato** | *(Preencher)* |
-| **Telefone de contato** | *(Preencher)* |
+| **Nome da comunidade/organização** | Tavares Armarinhos e Utilidades |
+| **Tipo** | Empresa |
+| **Endereço** | Rua Claudinei de Oliveira Silva, 166 Francisco Morato São Paulo - SP |
+| **Responsável pelo contato** | Adriana – Gerente |
+| **E-mail de contato** | armarinhostavares@gmail.com |
+| **Telefone de contato** | 11 94500-6561 |
 
 ---
 
 ## 📖 Descrição do Projeto
 
-*(Descreva brevemente o problema identificado na comunidade parceira e a solução proposta pelo grupo. Inclua o contexto da comunidade, as necessidades identificadas relacionadas a redes de computadores e como o sistema desenvolvido pretende atender essas necessidades.)*
+Após a realização de uma análise preliminar no ambiente tecnológico da loja, foi identificado que a estação de trabalho utilizada para as atividades operacionais possui acesso à internet residencial, porém não conta com uma política formal de cibersegurança ou diretrizes estabelecidas para o uso seguro dos recursos digitais.
+
+A ausência dessas práticas pode aumentar a exposição a riscos como malware, ataques de phishing, perda de dados e acessos não autorizados. Considerando a crescente dependência de sistemas digitais nas operações comerciais, torna-se essencial estabelecer medidas básicas de proteção para garantir a segurança das informações e a continuidade das atividades.
+
+Diante desse cenário, este projeto tem como objetivo implementar uma política de cibersegurança adaptada à realidade da loja, contemplando boas práticas de uso do computador, gestão de senhas, proteção contra ameaças digitais, realização de backups e segurança da rede. A aplicação dessas medidas visa reduzir vulnerabilidades, promover o uso responsável da tecnologia e fortalecer a proteção dos dados utilizados no ambiente de trabalho.
+
 
 ---
 
@@ -52,11 +57,11 @@
 
 *(Liste as tecnologias, linguagens e ferramentas usadas no projeto. Exemplos:)*
 
-- **Servidor/Back-end:** *(Ex: Shell scripts, .NET, Node.js, etc.)*
-- **Cliente/Front-end:** *(Ex: HTML + CSS + JS, aplicação móvel, etc.)*
-- **Infraestrutura:** *(Ex: Linux, Windows Server, Docker, etc.)*
-- **Rede:** *(Ex: Roteadores, switches, access points, etc.)*
-- **Outros:** *(Ex: GitHub, VS Code, etc.)*
+- **Servidor/Back-end:** Google Drive, Microsoft Windows Defender, Google Authenticator, Open DNS
+- **Cliente/Front-end:** Ex: Google Chrome.
+- **Infraestrutura:** Computador - Estação de Trabalho
+- **Rede:** Roteador Wi-Fi, Cabeamento de rede - Ethernet, Provedora de Internet - ISP
+- **Outros:** GitHub, VS Code, Microsoft Word, Power Point, etc.
 
 ---
 
@@ -91,3 +96,6 @@
 ## 📄 Licença
 
 Este projeto é desenvolvido como parte de atividade extensionista do curso de Tecnologia em Redes de Computadores da PUC Minas.
+
+LINK DO DIAGRAMA NO FIGMA: https://www.figma.com/board/5B0f6QT1fnFlKGAID1ZQnx/Sem-t%C3%ADtulo?node-id=0-1&t=IIAxMbRKk5GlUrrF-1
+
