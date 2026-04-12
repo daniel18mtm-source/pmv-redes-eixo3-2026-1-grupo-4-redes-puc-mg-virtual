@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ $json.ASSUNTO || 'Comunicado' }}</title>
+</head>
+<body style="margin:0; padding:0; background-color:#eef4fb; font-family:Arial, Helvetica, sans-serif; color:#1f2937;">
+  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color:#eef4fb; margin:0; padding:30px 0;">
+    <tr>
+      <td align="center">
+        <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" style="width:600px; max-width:600px; background-color:#ffffff; border:1px solid #d6e4f2;">
+          
+          <tr>
+            <td style="background-color:#005ca9; padding:28px 32px;">
+              <h1 style="margin:0; font-size:24px; color:#ffffff; font-weight:bold;">
+                Aviso de Segurança
+              </h1>
+              <p style="margin:8px 0 0 0; font-size:14px; color:#dbeafe;">
+                Mensagem enviada automaticamente pelo sistema
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:32px;">
+              <h2 style="margin:0 0 18px 0; font-size:21px; color:#003b73; font-weight:bold;">
+                {{ $json.ASSUNTO || 'Sem assunto' }}
+              </h2>
+
+              <div style="margin:0 0 24px 0; font-size:15px; line-height:1.8; color:#374151; white-space:pre-line;">
+                {{ $json.MENSAGEM || 'Sem conteúdo disponível.' }}
+              </div>
+
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color:#f7fbff; border:1px solid #d6e4f2;">
+                <tr>
+                  <td style="padding:16px 18px;">
+                    <p style="margin:0 0 8px 0; font-size:13px; color:#5b6b7f;">
+                      Data do envio
+                    </p>
+                    <p style="margin:0; font-size:14px; color:#003b73; font-weight:bold;">
+                      {{ $now.setZone('America/Sao_Paulo').toFormat("dd/MM/yyyy HH:mm:ss") }}
+                    </p>
+                  </td>
+                </tr>
+              </table>
+
+              <p style="margin:24px 0 0 0; font-size:14px; line-height:1.6; color:#6b7280;">
+                Esta é uma mensagem automática. Por favor, não responda este e-mail.
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="background-color:#eaf2fb; padding:18px 32px; border-top:1px solid #d6e4f2;">
+              <p style="margin:0; font-size:12px; color:#5b6b7f; text-align:center;">
+                Envio automatizado via n8n
+              </p>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
